@@ -8,7 +8,7 @@ There is a critical need for a system that enables communication without relying
 
 ## Proposed Solution
 
-CryptX is a decentralized, mesh-based communication system that allows users to send SOS signals without internet connectivity.
+MeshSOS is a decentralized, mesh-based communication system that allows users to send SOS signals without internet connectivity.
 
 The system uses nearby devices to relay distress messages through a multi-hop network using TTL (Time-To-Live) and hop count logic.
 
