@@ -159,6 +159,6 @@ npm start
    - Aradhya Jayawardane
 
 
-University: Sabaragamuwa University of Sri Lanka
-Domain: Disaster Management & Community Resilience
+- University: Sabaragamuwa University of Sri Lanka
+- Domain: Disaster Management & Community Resilience
 
