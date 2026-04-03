@@ -63,6 +63,46 @@ The system follows a decentralized mesh communication model:
 4. Once any device gains internet access, the message is forwarded to a backend server
 5. Emergency responders receive the alert
 
+                        +---------------------+
+                        | Stranded Civilian |
+                        | (Send SOS) |
+                        +----------+----------+
+                        |
+                        v
+                        +---------------------+
+                        | Distress Packet |
+                        | (GPS, Severity, |
+                        | TTL, Hops) |
+                        +----------+----------+
+                        |
+                        v
+                        +---------------------+
+                        | Mesh Network |
+                        | (Nearby Devices) |
+                        | - Relay Messages |
+                        | - Decrease TTL |
+                        | - Increase Hops |
+                        +----------+----------+
+                        |
+                        v
+                        +---------------------+
+                        | Internet Gateway |
+                        | (Any device with |
+                        | connectivity) |
+                        +----------+----------+
+                        |
+                        v
+                        +---------------------+
+                        | Backend Server |
+                        | (Process SOS Data) |
+                        +----------+----------+
+                        |
+                        v
+                        +---------------------+
+                        | Emergency Responder |
+                        | (Receive & Act) |
+                        +---------------------+
+
 ## How to Run the Project
 
 1. Clone the repository:
