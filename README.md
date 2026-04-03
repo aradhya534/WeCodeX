@@ -117,7 +117,6 @@ git clone https://github.com/aradhya534/WeCodeX.git
 cd WeCodeX
 ```
 
----
 
 ## Run Frontend
 
@@ -133,8 +132,6 @@ Open in browser:
 http://localhost:5173
 ```
 
----
-
 ## Run Backend
 
 ```bash
@@ -143,15 +140,11 @@ npm install
 npm start
 ```
 
----
-
 ## Notes
 
 * Run **backend first**, then frontend
 * Make sure backend is running on the correct port (e.g., `http://localhost:5000`)
 * If frontend uses API calls, check the API base URL is correct
-
----
 
 ## Prerequisites
 
