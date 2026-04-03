@@ -103,7 +103,7 @@ The system follows a decentralized mesh communication model:
                         | (Receive & Act) |
                         +---------------------+
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 
@@ -119,7 +119,7 @@ cd WeCodeX
 
 ---
 
-## ▶️ Run Frontend
+## Run Frontend
 
 ```bash
 cd frontend
@@ -135,7 +135,7 @@ http://localhost:5173
 
 ---
 
-## ⚙️ Run Backend
+## Run Backend
 
 ```bash
 cd backend
@@ -145,7 +145,7 @@ npm start
 
 ---
 
-## 🔄 Notes
+## Notes
 
 * Run **backend first**, then frontend
 * Make sure backend is running on the correct port (e.g., `http://localhost:5000`)
@@ -153,7 +153,7 @@ npm start
 
 ---
 
-## 📌 Prerequisites
+## Prerequisites
 
 * Node.js (v16 or higher)
 * npm
