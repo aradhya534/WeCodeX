@@ -103,22 +103,61 @@ The system follows a decentralized mesh communication model:
                         | (Receive & Act) |
                         +---------------------+
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
-1. Clone the repository:
-   git clone https://github.com/your-username/cryptx.git
+### 1. Clone the repository
 
-2. Navigate to the project:
-   cd cryptx
+```bash
+git clone https://github.com/aradhya534/WeCodeX.git
+```
 
-3. Install dependencies:
-   npm install
+### 2. Navigate into the project folder
 
-4. Start the development server:
-   npm run dev
+```bash
+cd WeCodeX
+```
 
-5. Open in browser:
-   http://localhost:5173
+---
+
+## ▶️ Run Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## ⚙️ Run Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+---
+
+## 🔄 Notes
+
+* Run **backend first**, then frontend
+* Make sure backend is running on the correct port (e.g., `http://localhost:5000`)
+* If frontend uses API calls, check the API base URL is correct
+
+---
+
+## 📌 Prerequisites
+
+* Node.js (v16 or higher)
+* npm
+
 
 ## Team Details
 - Team name: Wecodex
@@ -127,6 +166,6 @@ The system follows a decentralized mesh communication model:
    - Aradhya Jayawardane
 
 
-University: [Sabaragamuwa University of Sri Lanka]
+University: Sabaragamuwa University of Sri Lanka
 Domain: Disaster Management & Community Resilience
 
