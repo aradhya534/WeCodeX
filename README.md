@@ -81,9 +81,10 @@ The system follows a decentralized mesh communication model:
    http://localhost:5173
 
 ## Team Details
-
-- Pooja Anbalagan
-- Aradhya Jayawardane
+- Team name: Wecodex
+- Team Members:
+   - Pooja Anbalagan
+   - Aradhya Jayawardane
 
 
 University: [Sabaragamuwa University of Sri Lanka]
