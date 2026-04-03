@@ -1,4 +1,4 @@
-# CryptX – Offline Mesh-Based Disaster Communication System
+# MeshSOS – Offline Mesh-Based Disaster Communication System
 
 ## Problem Statement
 
