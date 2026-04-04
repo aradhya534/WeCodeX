@@ -43,10 +43,12 @@ export default function App() {
                <Map className="w-4 h-4" />
                <span>CIVILIAN UI</span>
              </button>
+
              <button 
                onClick={() => setCurrentView('responder')}
                className={`px-3 py-1.5 rounded-md text-xs font-bold flex items-center space-x-2 transition-colors ${currentView === 'responder' ? 'bg-blue-900/50 text-blue-400' : 'text-gray-500 hover:text-gray-300'}`}
              >
+              
                <RadioTower className="w-4 h-4" />
                <span>HQ RESPONDER</span>
              </button>
